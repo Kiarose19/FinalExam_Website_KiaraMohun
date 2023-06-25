@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Website</title>
+    <link rel="stylesheet" href="normalize.css" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <section class="header">
+      <nav id="navbar">
+        <label for="logo" class="logo">Kiara's Korner</label>
+        <img
+          src="Images/—Pngtree—line draw abstract woman and_5579564.png"
+          id="logo"
+        />
+        <i class="fa fa-times"></i>
+        <ul>
+          <script src="app.js"></script>
+          <li><a href="index.html" class="active">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="blogs.html">Blogs</a></li>
+          <li><a href="design.html">Designs</a></li>
+          <li><a href="portfolio.html">Portfolio</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+        <i class="fa fa-bars"></i>
+      </nav>
+    </section>
+
+    <section class="title">
+      <h1>Contact Us Today</h1>
+      <h2>For More Information, Contact Us On The Platfroms Below.</h2>
+
+       <div class="row">
+        <div class="contact-column">
+          <img src="Images/facebook.png" alt="" />
+          <p>kkk@Facebook.com</p>
+        </div>
+        <div class="contact-column">
+          <img src="Images/—Pngtree—instagram icon_8704817.png" alt="" />
+          <p>kkk@Instagram.com</p>
+        </div>
+        <div class="contact-column">
+          <img
+            src="Images/—Pngtree—phone icon in solid circle_5552270.png"
+            alt=""
+          />
+          <p>0-- --- ---9</p>
+        </div>
+        <div class="contact-column">
+          <img src="Images/gmail.png" alt="" />
+          <p>kkk@gmail.com</p>
+        </div>
+      </div>
+    </section>
+    </section>
+
+    <section class="form">
+      <div class="container" id="contactform">
+        <div style="text-align: center">
+          <h2>Contact Us</h2>
+          <p>Swing by for a cup of coffee, or leave us a message:</p>
+        </div>
+        <div class="row">
+          <div class="column">
+            <img src="Images/thought-catalog-505eectW54k-unsplash.jpg" />
+          </div>
+          <div class="column">
+            <form action="/action_page.php">
+              <label for="fname">First Name</label>
+              <input
+                type="text"
+                id="fname"
+                name="firstname"
+                placeholder="Your name.."
+              />
+              <label for="lname">Last Name</label>
+              <input
+                type="text"
+                id="lname"
+                name="lastname"
+                placeholder="Your last name.."
+              />
+              <label for="country">Country</label>
+              <select id="country" name="country">
+                <option value="australia">Australia</option>
+                <option value="canada">Canada</option>
+                <option value="usa">USA</option>
+                <option value="south africa">South Africa</option>
+              </select>
+              <label for="subject">Subject</label>
+              <textarea
+                id="subject"
+                name="subject"
+                placeholder="Write something.."
+                style="height: 170px"
+              ></textarea>
+              <input type="submit" value="Submit" />
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>
